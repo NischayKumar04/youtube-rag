@@ -168,6 +168,4 @@ python main.py
 5. **Retrieval** — User questions are embedded with `query:` prefix and matched against the index (top-K similarity)
 6. **Generation** — Retrieved context + question are sent to GLM-5.2 via HuggingFace's chat API to generate a grounded answer
 
-## License
 
-MIT
